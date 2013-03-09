@@ -1,9 +1,0 @@
-
-#pragma once
-#include "monstruo.h"
-
-class prota : public personaje{
-public:
-  void mover ();
-  void pelear ();
-};
