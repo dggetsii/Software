@@ -14,7 +14,8 @@ public:
 class mazmorra{
 private:
   int m_, n_;
-  objeto **matriz;
+  objeto ***matriz;
+  habitacion *hab;
 public:
   mazmorra(char []);
   ~mazmorra();
@@ -22,7 +23,9 @@ public:
   inline int getn(){return n_;};
   
   void busca_habitaciones();
-  void pintar ();
+  void pintar ();//Solo imprime cada celda
+  void genera_monstruos();
+  int generar_coordenada(int,int);
 };
 
 

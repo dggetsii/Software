@@ -1,5 +1,6 @@
 #include "mazmorra.h"
 int main(){
-  mazmorra tuputamadre ("Mazmorra_30_30.dat");
-  tuputamadre.pintar();
+  mazmorra m ("Mazmorra_30_30.dat");
+  m.busca_habitaciones();
+  m.pintar();
 }
